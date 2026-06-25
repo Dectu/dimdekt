@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* Общие настройки контейнера */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: #0a0a0a;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family: 'Inter', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 40px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>max-width: 1200px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* Сетка всех элементов (платформы + архивы) */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.platforms-grid {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>.card {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: rgba(255, 255, 255, 0.03);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border: 1px solid rgba(255, 255, 255, 0.05);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transition: 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>width: 140px; /* Фиксированная ширина */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.card:hover { background: rgba(255, 255, 255, 0.1); border-color: #ffcc00; transform: translateY(-2px); }</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>.icon { font-size: 24px; margin-bottom: 8px; display: block; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.name { font-size: 12px; font-weight: 500; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* АДАПТИВНОСТЬ */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>@media (max-width: 600px) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card { width: calc(50% - 15px); } /* 2 колонки на мобильных */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="platforms-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://music.yandex.ru/artist/7114590" target="_blank" class="card"&gt;&lt;span class="icon"&gt;🎵&lt;/span&gt;&lt;div class="name"&gt;Яндекс Музыка&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://vk.com/@-180677528-archive" target="_blank" class="card"&gt;&lt;span class="icon"&gt;🟣&lt;/span&gt;&lt;div class="name"&gt;ВКонтакте&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://music.youtube.com/channel/UCHJzEC-Oe_UUWiBxDYyCgQw" target="_blank" class="card"&gt;&lt;span class="icon"&gt;📺&lt;/span&gt;&lt;div class="name"&gt;YT Music&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://open.spotify.com/artist/4bIr6B5l4yjiKynlBnGs57" target="_blank" class="card"&gt;&lt;span class="icon"&gt;🟢&lt;/span&gt;&lt;div class="name"&gt;Spotify 1&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://open.spotify.com/artist/278i41QEg2LE07XtwTuiOs" target="_blank" class="card"&gt;&lt;span class="icon"&gt;🟢&lt;/span&gt;&lt;div class="name"&gt;Spotify 2&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://open.spotify.com/artist/61ZBdvVDanhEjoCDxrT7dB" target="_blank" class="card"&gt;&lt;span class="icon"&gt;🟢&lt;/span&gt;&lt;div class="name"&gt;Spotify 3&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://music.apple.com/ru/artist/1456186764" target="_blank" class="card"&gt;&lt;span class="icon"&gt;🍎&lt;/span&gt;&lt;div class="name"&gt;Apple Music&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://zvuk.com/artist/209479076" target="_blank" class="card"&gt;&lt;span class="icon"&gt;🔊&lt;/span&gt;&lt;div class="name"&gt;Звук&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://music.mts.ru/artist/7114590" target="_blank" class="card"&gt;&lt;span class="icon"&gt;📱&lt;/span&gt;&lt;div class="name"&gt;МТС Музыка&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://disk.yandex.ru/d/fMo4rpCV9WaiwQ" target="_blank" class="card"&gt;&lt;span class="icon"&gt;💿&lt;/span&gt;&lt;div class="name"&gt;Яндекс Диск&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://t.me/fulldect" target="_blank" class="card"&gt;&lt;span class="icon"&gt;📁&lt;/span&gt;&lt;div class="name"&gt;Дискография&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.discography-container {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 50px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: #0a0a0a;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family: 'Inter', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>.disc-grid {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>.disc-card {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: rgba(255, 255, 255, 0.03);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border: 1px solid rgba(255, 255, 255, 0.05);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transition: 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>.disc-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: rgba(255, 255, 255, 0.08);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-color: #ffcc00;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>.disc-card h4 { font-size: 14px; margin: 0 0 5px 0; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.disc-card span { font-size: 11px; color: #777; }</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>.section-title { font-size: 24px; margin: 40px 0 20px; border-left: 3px solid #ffcc00; padding-left: 15px; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* Исправленный класс заголовка секции */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.disc-section-title {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>grid-column: 1 / -1;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding-left: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-left: 3px solid #ffcc00;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* Адаптация для мобильных */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>@media (max-width: 480px) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.disc-grid {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>grid-template-columns: 1fr; /* В один столбик на смартфонах */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="discography-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2 class="section-title"&gt;Дискография&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="disc-grid"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;SтD&lt;/h4&gt;&lt;span&gt;2012–2013&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Rap Life&lt;/h4&gt;&lt;span&gt;2013&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Летний&lt;/h4&gt;&lt;span&gt;2013&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Всё В Рэп&lt;/h4&gt;&lt;span&gt;2013–2014&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;По Весне&lt;/h4&gt;&lt;span&gt;2014&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Очертания (feat. The Moon)&lt;/h4&gt;&lt;span&gt;2014&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Иной Андерграунд&lt;/h4&gt;&lt;span&gt;2014&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Experimental&lt;/h4&gt;&lt;span&gt;2013–2015&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Блокнот&lt;/h4&gt;&lt;span&gt;2015&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Диалог с самим собой&lt;/h4&gt;&lt;span&gt;2015&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;the Nmv, ex tracks&lt;/h4&gt;&lt;span&gt;2015&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Форматировать память&lt;/h4&gt;&lt;span&gt;2015&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Rap Life 17&lt;/h4&gt;&lt;span&gt;Сборник · 2013–2016&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;OrD SтaFF&lt;/h4&gt;&lt;span&gt;Сборник · 2013–2016&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Ликвидация смысла&lt;/h4&gt;&lt;span&gt;2017&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Из Недр (feat. Ciozz)&lt;/h4&gt;&lt;span&gt;2018&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Эксцентричный&lt;/h4&gt;&lt;span&gt;2018&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Орд Стафф&lt;/h4&gt;&lt;span&gt;2019&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Prater&lt;/h4&gt;&lt;span&gt;2019&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Нелепо, но мило&lt;/h4&gt;&lt;span&gt;2019&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Сияю, даже когда тучи&lt;/h4&gt;&lt;span&gt;2019&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Дети этики&lt;/h4&gt;&lt;span&gt;2019&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Дэктотерапия&lt;/h4&gt;&lt;span&gt;2019&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Приторная сущность&lt;/h4&gt;&lt;span&gt;2019&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Это вкусно&lt;/h4&gt;&lt;span&gt;2019&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Самовлюбийство&lt;/h4&gt;&lt;span&gt;2019&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Шабаш (feat. Freaklaly)&lt;/h4&gt;&lt;span&gt;2019&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Amor Loco&lt;/h4&gt;&lt;span&gt;2019&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;317&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;La La Flex&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Пустой зал ожидания (feat. darryll dark)&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Один в поле воин&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Дэктодельный&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Пышный&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Дикошарый&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Anarju&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Dectiozz (feat. Ciozz)&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Дэктология&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Acid Parts&lt;/h4&gt;&lt;span&gt;2016–2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Ebanytii&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Угары 1 / Угары 2&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Кладезь&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Сборник новогодних песен&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;317 Pt. 2&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Dectoin&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Тетеря&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Сделали это (feat. Ciozz)&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Обычное утро&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Тёплый день&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Братский вечер (feat. Ciozz)&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Неповторим&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Анагога&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Hyperdila&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Depayser&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Halcyon&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Свободный&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;23&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Са батон&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;God Blessed&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Hygge&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Дэктройт&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Другая тема&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Happy Inside&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Saudade&lt;/h4&gt;&lt;span&gt;2022&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Что за тигр этот лев&lt;/h4&gt;&lt;span&gt;2022&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;317 Pt. 3&lt;/h4&gt;&lt;span&gt;2022&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Арлекинский флоу&lt;/h4&gt;&lt;span&gt;2022&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Приехал&lt;/h4&gt;&lt;span&gt;2022&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;К большим вершинам&lt;/h4&gt;&lt;span&gt;2022&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Прохладно&lt;/h4&gt;&lt;span&gt;2022&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Большие дяди (feat. Ciozz)&lt;/h4&gt;&lt;span&gt;2022&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Микродэктинг&lt;/h4&gt;&lt;span&gt;2023&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;11&lt;/h4&gt;&lt;span&gt;2023&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Деревенский&lt;/h4&gt;&lt;span&gt;2023&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Dectiozz 2&lt;/h4&gt;&lt;span&gt;2023&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Очередной&lt;/h4&gt;&lt;span&gt;2023&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Кринж-бросок&lt;/h4&gt;&lt;span&gt;2023&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Густой&lt;/h4&gt;&lt;span&gt;2023&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Антистресс&lt;/h4&gt;&lt;span&gt;2024&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Невидим&lt;/h4&gt;&lt;span&gt;2024&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Поступок огня&lt;/h4&gt;&lt;span&gt;2024&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Весеннее обострение&lt;/h4&gt;&lt;span&gt;2024&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Светлое место (feat. Sveta White)&lt;/h4&gt;&lt;span&gt;2024&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Остриё&lt;/h4&gt;&lt;span&gt;2024&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Полдник&lt;/h4&gt;&lt;span&gt;2024&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Опыт&lt;/h4&gt;&lt;span&gt;2024&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Басня&lt;/h4&gt;&lt;span&gt;2024&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Мистер совершивший&lt;/h4&gt;&lt;span&gt;2025&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Капитал&lt;/h4&gt;&lt;span&gt;2025&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Рупор&lt;/h4&gt;&lt;span&gt;2025&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Желанный&lt;/h4&gt;&lt;span&gt;2025&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Многополосный&lt;/h4&gt;&lt;span&gt;2025&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;27&lt;/h4&gt;&lt;span&gt;2025&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Размах&lt;/h4&gt;&lt;span&gt;2025&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Всплеск&lt;/h4&gt;&lt;span&gt;2025&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Орнамент&lt;/h4&gt;&lt;span&gt;2025&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Дэктую&lt;/h4&gt;&lt;span&gt;2026&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Знатный&lt;/h4&gt;&lt;span&gt;2026&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Давеча&lt;/h4&gt;&lt;span&gt;2026&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Сотня&lt;/h4&gt;&lt;span&gt;2026&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Отличительная черта&lt;/h4&gt;&lt;span&gt;2026&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Номер&lt;/h4&gt;&lt;span&gt;2026&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-section-title"&gt;Синглы&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Cинглы 2019-2020&lt;/h4&gt;&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Cинглы 2020-2022&lt;/h4&gt;&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Архив синглов, часть первая&lt;/h4&gt;&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Архив синглов, часть вторая&lt;/h4&gt;&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Архив синглов, часть третья&lt;/h4&gt;&lt;span&gt;&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-section-title"&gt;Архивы&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Архивы 2012–2023&lt;/h4&gt;&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Архив 2023–2025&lt;/h4&gt;&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-section-title"&gt;Telegram Релизы&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;8 Марта&lt;/h4&gt;&lt;span&gt;TG · 2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Неизданные куплеты&lt;/h4&gt;&lt;span&gt;TG · 2022&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Тобой дышу&lt;/h4&gt;&lt;span&gt;TG · 2022&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;mad freestyle&lt;/h4&gt;&lt;span&gt;TG · 2022&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Большие дела&lt;/h4&gt;&lt;span&gt;TG · 2022&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Побрей&lt;/h4&gt;&lt;span&gt;TG · 2022&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Фристайл&lt;/h4&gt;&lt;span&gt;TG · 2023&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Дэмология, ч. 1&lt;/h4&gt;&lt;span&gt;TG · 2023&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Дэмология, ч. 2&lt;/h4&gt;&lt;span&gt;TG · 2023&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;REAPER DAW&lt;/h4&gt;&lt;span&gt;TG · 2023&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Госуслуги&lt;/h4&gt;&lt;span&gt;TG · 2024&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;На привязь&lt;/h4&gt;&lt;span&gt;TG · 2025&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Мюзик&lt;/h4&gt;&lt;span&gt;TG · 2026&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="disc-section-title"&gt;Участие на релизах&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">       </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Участие на альбоме GYR 96&lt;/h4&gt;&lt;span&gt;2020&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Участие на альбоме CIOZZ&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">       </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Участие на альбоме Анита Единорог&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Участие на альбоме CIOZZ&lt;/h4&gt;&lt;span&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Участие на альбоме RAUL&lt;/h4&gt;&lt;span&gt;2023&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">     </span>&lt;div class="disc-card"&gt;&lt;h4&gt;Участие на альбоме CIOZZ&lt;/h4&gt;&lt;span&gt;2025&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+</body>
+</html>

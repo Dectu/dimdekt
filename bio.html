@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;style&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* Стили для меню */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.main-nav {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: flex;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>flex-wrap: wrap;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>justify-content: center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>gap: 10px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background: rgba(0, 0, 0, 0.4);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>backdrop-filter: blur(10px);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>position: sticky;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>top: 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>z-index: 1000;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.main-nav a {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: #fff;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-decoration: none;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 10px 18px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius: 8px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 14px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-weight: 500;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-transform: uppercase;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>transition: 0.3s;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border: 1px solid rgba(255, 255, 255, 0.1);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.main-nav a:hover {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background: rgba(255, 255, 255, 0.2);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-color: #ffcc00;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* Класс для активной страницы */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.main-nav a.active {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background: #ffcc00;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: #000;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-color: #ffcc00;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-weight: 700;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1">&lt;/style&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;nav class="main-nav" id="navbar"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;a href="index.html"&gt;Главная&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;a href="bio.html"&gt;Биография&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;a href="music.html"&gt;Дискография&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;a href="case.html"&gt;Портфолио&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;a href="chronicles.html"&gt;Хроники&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;a href="discipline.html"&gt;Дисциплина&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/nav&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>// Получаем путь текущей страницы</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>const currentLocation = window.location.pathname.split("/").pop();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>const navLinks = document.querySelectorAll('.main-nav a');</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>navLinks.forEach(link =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>// Если href ссылки совпадает с текущим путем - добавляем класс active</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if(link.getAttribute('href') === currentLocation) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>link.classList.add('active');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>});</span></p>
+<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;style&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.dimdekt-bio-wrapper {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>/* Добавляем фон с наложением для читаемости текста */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-image: linear-gradient(rgba(10, 10, 10, 0.9), rgba(10, 10, 10, 0.9)), url('https://i.postimg.cc/LsbbyGdg/legendaren2.png');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-size: cover;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-position: center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-attachment: fixed;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-repeat: no-repeat;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 80px 20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-family: 'Inter', sans-serif;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: #d1d1d1;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>line-height: 1.7;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-align: center;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>/* Эффект размытия фона */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>filter: blur(0px); /* Можно оставить 0, так как само изображение лучше размыть заранее или наложить фильтр на псевдоэлемент */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.bio-content {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>max-width: 700px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: 0 auto;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>/* Добавляем легкое размытие именно контенту, если нужно, но лучше просто затемнить фон */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.bio-title {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 42px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-weight: 800;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: #fff;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-bottom: 60px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>letter-spacing: -1px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.bio-section-title {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: #ffcc00;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-weight: 700;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: 40px 0 15px 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-transform: uppercase;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>letter-spacing: 1px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.bio-paragraph {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 17px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-bottom: 20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>@media (max-width: 480px) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.dimdekt-bio-wrapper { padding: 40px 15px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.bio-title { font-size: 32px; margin-bottom: 40px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.bio-paragraph { font-size: 16px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1">&lt;/style&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;div class="dimdekt-bio-wrapper"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="bio-content"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h1 class="bio-title"&gt;ДИМДЭКТ: Путь творца&lt;/h1&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2 class="bio-section-title"&gt;Об авторе&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="bio-paragraph"&gt;ДИМДЭКТ (Дмитрий Сергеевич Наумов) — музыкант, блогер, стример и независимый творец из Свердловской области, работающий на стыке музыки, видео и цифрового контента. Родился 31 июля 1998 года в посёлке Студенческий на Урале.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2 class="bio-section-title"&gt;Начало пути&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="bio-paragraph"&gt;Творческий путь начался в 2012 году с первых текстов и записей на диктофон обычного кнопочного телефона. Позже появились компьютер и микрофон, а вместе с ними — возможность серьёзно заниматься музыкой и выпускать собственные релизы. С самого начала главным принципом стала независимость: все этапы создания контента — от идеи до финального результата — выполнялись самостоятельно.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2 class="bio-section-title"&gt;Музыкальное творчество&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="bio-paragraph"&gt;Музыка для ДИМДЭКТА никогда не ограничивалась рамками одного жанра. В основе творчества лежат личные переживания, наблюдения за жизнью, путешествия, истории из разных городов и постоянный поиск новых форм самовыражения.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="bio-paragraph"&gt;Отдельно выделяется масштаб его каталога: на сегодняшний день в дискографии насчитывается более 100 альбомов и около 2000 треков. По количеству записанного материала ДИМДЭКТ упоминается как один из самых продуктивных независимых исполнителей своего поколения, а также обладатель рекордного объёма выпущенной музыки среди уральских рэп-артистов своего времени.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2 class="bio-section-title"&gt;Профессиональный опыт&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="bio-paragraph"&gt;Помимо записи музыки, Дмитрий получил опыт профессиональной работы со звуком и занимался звукорежиссурой на одной из ведущих студий звукозаписи Екатеринбурга. Это позволило глубже освоить процессы записи, сведения и обработки вокала и применять эти навыки в собственных проектах.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="bio-paragraph"&gt;За годы самостоятельной работы ДИМДЭКТ освоил множество творческих направлений: звукозапись, сведение и мастеринг, битмейкинг, видеомонтаж, графический дизайн, создание обложек, превью, сценариев и визуального оформления проектов. Такой подход позволяет полностью контролировать творческий процесс и сохранять авторское видение на каждом этапе работы.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2 class="bio-section-title"&gt;Медиапроект&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="bio-paragraph"&gt;Параллельно развивается авторский медиапроект ДИМДЭКТ. На YouTube и стриминговых площадках выходят разговорные видео, путешествия, репортажи с мероприятий, прямые эфиры и истории из жизни без строгих жанровых ограничений. Главная идея проекта — показывать реальную жизнь такой, какая она есть: с дорогами, новыми городами, событиями и живыми эмоциями.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2 class="bio-section-title"&gt;Философия проекта&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="bio-paragraph"&gt;Основой философии проекта остаются дисциплина, постоянство и ежедневный труд. Вместо ожидания вдохновения ДИМДЭКТ делает ставку на регулярную практику и непрерывное создание нового материала. Благодаря этому подходу удалось сформировать масштабную дискографию и объединить музыку, блогинг, стриминг и визуальное искусство в единый авторский проект.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="bio-paragraph"&gt;Сегодня ДИМДЭКТ продолжает выпускать музыку, проводить прямые эфиры, создавать видео и развивать новые творческие направления. Здесь нет строгих границ между музыкантом, ведущим, путешественником и создателем контента — есть постоянное движение вперёд, новые идеи и стремление создавать что-то настоящее.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+</body>
+</html>
